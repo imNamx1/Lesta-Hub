@@ -94,43 +94,6 @@ a.Idled:connect(
         end
     end
 )
-local a = Instance.new("ScreenGui")
-local e = Instance.new("ImageButton")
-_G.Primary = Color3.fromRGB(0, 0, 255)
-_G.Dark = Color3.fromRGB(0, 0, 255)
-a.Parent = game.CoreGui
-a.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-e.Parent = a
-e.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
-e.Size = UDim2.new(0, 50, 0, 50)
-e.BackgroundColor3 = _G.Primary
-e.ImageColor3 = Color3.fromRGB(255, 255, 255)
-e.ImageTransparency = .1
-e.Draggable = true
-e.Active = true
-e.Selectable = true
-e.BackgroundTransparency = .1
-e.Image = "rbxassetid://14981376704"
-e.Visible = true
-local a = Instance.new("UICorner")
-a.Name = "MCNR"
-a.Parent = e
-a.CornerRadius = UDim.new(0, 5)
-e.MouseButton1Down:connect(
-    function()
-        e:TweenSize(UDim2.new(0, 40, 0, 40), "Out", "Quad", 0.2, true)
-        wait(0.1)
-        e:TweenSize(UDim2.new(0, 50, 0, 50), "Out", "Quad", 0.2, true)
-        game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game)
-        game:GetService("VirtualInputManager"):SendKeyEvent(false, 305, false, game)
-    end
-)
-do
-    if game:GetService("CoreGui"):FindFirstChild("AlchemyHubUI") then
-        game:GetService("CoreGui").AlchemyHubUI:Destroy()
-        game:GetService("CoreGui").ScreenGui:Destroy()
-    end
-end
 repeat
     wait(1)
 until game:IsLoaded()
