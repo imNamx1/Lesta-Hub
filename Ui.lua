@@ -151,7 +151,7 @@ function a:Window(f, f, f)
     local j = Instance.new("TextLabel")
     j.Name = "ttittles"
     j.Parent = f
-    j.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    j.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     j.BackgroundTransparency = 1
     j.Position = UDim2.new(0, 10, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
