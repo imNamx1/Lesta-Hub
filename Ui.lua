@@ -118,7 +118,7 @@ function a:Window(f, f, f)
     i.Parent = f
     i.ClipsDescendants = true
     i.AnchorPoint = Vector2.new(0.5, 0.5)
-    i.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    i.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
     i.BackgroundTransparency = .1
     i.Position = UDim2.new(0.5, 0, 0.5, 0)
     i.Size = UDim2.new(0, 0, 0, 0)
@@ -156,7 +156,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Alchemy Hub"
+    j.Text = "Lesta Hub | Free Script"
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
@@ -167,7 +167,11 @@ function a:Window(f, f, f)
     j.ImageColor3 = Color3.fromRGB(255, 255, 255)
     j.Position = UDim2.new(0, 500, 0, 7)
     j.Size = UDim2.new(0, 30, 0, 30)
-
+    j.Image = "rbxassetid://"
+    j.MouseButton1Click:Connect(
+        function()       
+        end
+    )
     local e = Instance.new("Frame")
     e.Name = "Tab"
     e.Parent = i
