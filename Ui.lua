@@ -167,12 +167,6 @@ function a:Window(f, f, f)
     j.ImageColor3 = Color3.fromRGB(255, 255, 255)
     j.Position = UDim2.new(0, 500, 0, 7)
     j.Size = UDim2.new(0, 30, 0, 30)
-    j.Image = "rbxassetid://15511995461"
-    j.MouseButton1Click:Connect(
-        function()
-            game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game)
-            game:GetService("VirtualInputManager"):SendKeyEvent(false, 305, false, game)
-        end
     )
     local e = Instance.new("Frame")
     e.Name = "Tab"
