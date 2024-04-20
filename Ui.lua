@@ -98,7 +98,6 @@ local a = Instance.new("ScreenGui")
 local e = Instance.new("ImageButton")
 _G.Primary = Color3.fromRGB(43, 43, 43)
 _G.Dark = Color3.fromRGB(20, 16, 16)
-a.Parent = game.CoreGui
 repeat
     wait(1)
 until game:IsLoaded()
@@ -125,7 +124,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 145)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(255, 0, 0)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -157,7 +156,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Lesta Hub"
+    j.Text = "Alchemy Hub"
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
@@ -559,7 +558,7 @@ function a:Window(f, f, f)
             b = b or false
             local e = b
             _G.Color = Color3.fromRGB(255, 255, 255)
-            _G.TrueColor = Color3.fromRGB(0, 255, 0)
+            _G.TrueColor = Color3.fromRGB(255, 0, 0)
             local g = Instance.new("UICorner")
             local g = Instance.new("UIPadding")
             local g = Instance.new("UIStroke")
@@ -586,10 +585,10 @@ function a:Window(f, f, f)
             o.Name = "Icon"
             o.Parent = h
             o.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            --o.BackgroundTransparency = 1.000
+            o.BackgroundTransparency = 1.000
             o.Position = UDim2.new(0, 5, 0, 8)
             o.Size = UDim2.new(0, 30, 0, 30)
-            o.Image = "rbxassetid://16062922985"
+            o.Image = "rbxassetid://7483871523"
             j.Parent = h
             j.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             j.BackgroundTransparency = 1.000
@@ -682,7 +681,7 @@ function a:Window(f, f, f)
             f.BackgroundTransparency = 1.000
             f.Position = UDim2.new(0, 5, 0, 3)
             f.Size = UDim2.new(0, 30, 0, 30)
-            f.Image = "rbxassetid://16062922985"
+            f.Image = "rbxassetid://7483871523"
             k.Name = "DropTitle"
             k.Parent = g
             k.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
@@ -897,7 +896,7 @@ function a:Window(f, f, f)
             l.BorderSizePixel = 0
             l.Position = UDim2.new(0, 7.5, 0, 7.5)
             l.Size = UDim2.new(0, 30, 0, 30)
-            l.Image = "rbxassetid://16062922985"
+            l.Image = "rbxassetid://7483871523"
             m.Parent = j
             m.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             m.BackgroundTransparency = 1.000
@@ -1295,7 +1294,7 @@ function a:Window(f, f, f)
             k.BorderSizePixel = 0
             k.Position = UDim2.new(0, 7.5, 0, 7.5)
             k.Size = UDim2.new(0, 30, 0, 30)
-            k.Image = "rbxassetid://16062922985"
+            k.Image = "rbxassetid://7483871523"
             l.Parent = i
             l.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             l.BackgroundTransparency = 1.000
