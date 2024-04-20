@@ -1,4 +1,4 @@
-local a = Instance.new("UIStroke")
+ฟlocal a = Instance.new("UIStroke")
 local a = Instance.new("UICorner")
 local a = game.Players.LocalPlayer
 pcall(
@@ -141,7 +141,7 @@ function a:Window(f, f, f)
     local f = Instance.new("Frame")
     f.Name = "Top"
     f.Parent = i
-    f.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     f.Size = UDim2.new(0, 556, 0, 30)
     f.BackgroundTransparency = 1
     local j = Instance.new("UICorner")
