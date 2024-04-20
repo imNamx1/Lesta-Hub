@@ -167,7 +167,7 @@ function a:Window(f, f, f)
     j.ImageColor3 = Color3.fromRGB(255, 255, 255)
     j.Position = UDim2.new(0, 500, 0, 7)
     j.Size = UDim2.new(0, 30, 0, 30)
-    )
+
     local e = Instance.new("Frame")
     e.Name = "Tab"
     e.Parent = i
