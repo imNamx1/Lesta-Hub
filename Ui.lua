@@ -124,7 +124,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 0)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(255, 255, 255)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -141,7 +141,7 @@ function a:Window(f, f, f)
     local f = Instance.new("Frame")
     f.Name = "Top"
     f.Parent = i
-    f.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+    f.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
     f.Size = UDim2.new(0, 556, 0, 30)
     f.BackgroundTransparency = 1
     local j = Instance.new("UICorner")
