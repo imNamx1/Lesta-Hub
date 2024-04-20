@@ -1,4 +1,4 @@
-ฟlocal a = Instance.new("UIStroke")
+local a = Instance.new("UIStroke")
 local a = Instance.new("UICorner")
 local a = game.Players.LocalPlayer
 pcall(
