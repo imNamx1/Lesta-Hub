@@ -94,6 +94,10 @@ a.Idled:connect(
         end
     end
 )
+local a = Instance.new("ScreenGui")
+local e = Instance.new("ImageButton")
+_G.Primary = Color3.fromRGB(43, 43, 43)
+_G.Dark = Color3.fromRGB(20, 16, 16)
 repeat
     wait(1)
 until game:IsLoaded()
