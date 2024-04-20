@@ -124,7 +124,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 145)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 234)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -558,7 +558,7 @@ function a:Window(f, f, f)
             b = b or false
             local e = b
             _G.Color = Color3.fromRGB(255, 255, 255)
-            _G.TrueColor = Color3.fromRGB(0, 255, 145)
+            _G.TrueColor = Color3.fromRGB(0, 255, 234)
             local g = Instance.new("UICorner")
             local g = Instance.new("UIPadding")
             local g = Instance.new("UIStroke")
